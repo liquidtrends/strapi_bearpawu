@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_bear_paw_u_content_blocks",
+  "info": {
+    "displayName": "BearPaw U Content Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contentText": {
+      "type": "richtext"
+    },
+    "contentMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BlockTitle": {
+      "type": "string"
+    }
+  }
+}

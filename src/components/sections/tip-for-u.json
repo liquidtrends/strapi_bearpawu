@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_tip_for_us",
+  "info": {
+    "displayName": "TipForU",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tipText": {
+      "type": "text"
+    },
+    "tipImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tipTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_quizzes",
+  "info": {
+    "displayName": "Quiz",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answers": {
+      "displayName": "Options",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.options"
+    }
+  }
+}

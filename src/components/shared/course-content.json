@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_course_contents",
+  "info": {
+    "displayName": "courseContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionContent": {
+      "type": "richtext"
+    },
+    "sectionVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sectionImages": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "Top",
+        "Left",
+        "Right"
+      ]
+    }
+  }
+}

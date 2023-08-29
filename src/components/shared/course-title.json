@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_course_titles",
+  "info": {
+    "displayName": "courseTitle"
+  },
+  "options": {},
+  "attributes": {
+    "courseTitle": {
+      "type": "string"
+    },
+    "courseBackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

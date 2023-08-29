@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@strapi/plugin-color-picker": "^4.10.6",
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/strapi": "4.7.0",
+    "better-sqlite3": "8.0.1",
+    "codemirror": "^5.65.11",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
+    "strapi-plugin-populate-deep": "^2.0.0"
+  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b55039c7-e954-4206-8306-c74731cef205",
+    "template": "@strapi/template-blog@1.0.0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
